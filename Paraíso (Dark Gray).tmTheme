@@ -2,39 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
 
-	Name:		Paraíso (light)
-    Author:		Jan T. Sott
+		Name:			Paraíso (dark gray)
+    Author:		Luis Fernando Bang dos Santos
     License:	Creative Commons Attribution-ShareAlike 4.0 Unported License
-    URL:		https://github.com/idleberg/Paraiso.tmTheme
+    URL:			https://github.com/nandobang/Paraiso-Dark-Gray.tmTheme
 
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
-    Base16 template for TextMate by Chris Kempson (https://github.com/chriskempson)
 
 -->
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Jan T. Sott</string>
+	<string>Luis Fernando Bang dos Santos</string>
 	<key>name</key>
-	<string>Paraíso (light)</string>
+	<string>Paraíso (dark gray)</string>
 	<key>comment</key>
-	<string>https://github.com/idleberg/Paraiso.tmTheme</string>
+	<string>https://github.com/nandobang/Paraiso-Dark-Gray.tmTheme</string>
 	<key>semanticClass</key>
-	<string>theme.light.paraiso</string>
+	<string>theme.dark.paraiso</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#e7e9db</string>
+		<string>#41323f</string>
 		<key>divider</key>
-		<string>#e7e9db</string>
+		<string>#41323f</string>
 		<key>foreground</key>
-		<string>#4f424c</string>
+		<string>#776e71</string>
 		<key>selectionBackground</key>
-		<string>#e7e9db</string>
+		<string>#4f424c</string>
 		<key>selectionForeground</key>
-		<string>#a39e9b</string>
+		<string>#8d8687</string>
 	</dict>
 	<key>settings</key>
 	<array>
@@ -42,17 +41,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#e7e9db</string>
+				<string>#212121</string>
 				<key>caret</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 				<key>foreground</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 				<key>invisibles</key>
-				<string>#b9b6b0</string>
+				<string>#776e71</string>
 				<key>lineHighlight</key>
-				<string>#b9b6b0</string>
+				<string>#313131</string>
 				<key>selection</key>
-				<string>#b9b6b0</string>
+				<string>#4f424c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +62,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +73,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8d8687</string>
+				<string>#776e71</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +84,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -96,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +106,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f424c</string>
+				<string>#a39e9b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +150,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f99b15</string>
+				<string>#f6e60d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,7 +330,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#f99b15</string>
+				<string>#f6e60d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -410,9 +409,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#b9b6b0</string>
-				<key>foreground</key>
 				<string>#4f424c</string>
+				<key>foreground</key>
+				<string>#a39e9b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -502,11 +501,66 @@
 				<key>background</key>
 				<string>#ef6155</string>
 				<key>foreground</key>
-				<string>#e7e9db</string>
+				<string>#212121</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ef6155</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fec418</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#48b685</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#776e71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#776e71</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>74490853-ef29-4ca3-b862-27bfdc4b1ca0</string>
+	<string>938b4d7c-aea1-4ddd-83a0-3f496a78de36</string>
 </dict>
 </plist>
